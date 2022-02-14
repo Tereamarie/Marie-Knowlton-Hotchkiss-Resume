@@ -1,0 +1,144 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+html, body {
+	height: 100%;
+	background: black;
+}
+
+.container {
+    border: 10px solid red;
+	width: 90%;
+	margin: 0 auto;
+	max-width: 800px;
+	background: white;
+}
+
+header nav {
+	display: flex;
+	justify-content: flex-end;
+	width:100%;
+}
+
+header nav a {
+    padding: 10px;
+	max-width: 100%;
+	color: rgb(196, 36, 36);
+	text-decoration: none;
+}
+
+header nav a:hover {
+	color: blue;
+	text-decoration: none;
+}
+
+.border-div {
+	background-color: rgb(182, 179, 179);
+	flex-wrap: wrap;
+	justify-content:flex-start;
+    border: 10px solid rgb(141, 5, 5);
+}
+.banner img{
+	border: 10px solid rgb(143, 6, 109);
+	border-radius: 10px;
+	padding: .5px;
+	width: 188px;
+    margin-left:20px;
+}
+
+.cta {
+    display: flex;
+	justify-content: flex-end;
+	margin: 20px;
+    border: 6px dashed olive;
+}
+ .cta .text-content {
+	width: 100%;
+	margin:0 auto;
+	padding: 10px;
+	font-size:1.5rem;
+	border: 6px solid rgb(160, 7, 33);
+}
+button { 
+	margin: 0 auto;
+    border-radius: 3px;
+}
+button:hover {
+    color: red;
+}
+/* end of header nav banner styles */
+
+.special-skills {
+    border: 6px dashed darkgreen;
+}
+.skills-text {
+    border: 6px dashed goldenrod;
+}
+.skills-list {
+    border: 6px dashed mediumorchid;
+}
+
+ .work-history {
+     border: 6px dashed palevioletred;
+ }
+ .work-history h2 {
+     border: 6px dashed red;
+ }   
+ .table-header {
+     border: 6px dashed rebeccapurple;
+ }
+
+ footer {
+     border: 6px solid rgb(20, 18, 18);
+ }
