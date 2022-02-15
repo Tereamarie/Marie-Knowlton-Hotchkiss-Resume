@@ -58,7 +58,7 @@ html, body {
 }
 
 .container {
-    border: 10px solid red;
+   
 	width: 90%;
 	margin: 0 auto;
 	max-width: 800px;
@@ -118,13 +118,11 @@ button:hover {
     color: red;
 }
 /* end of header nav banner styles */
+
+/* for the skills bar */
 .container {
 	width: 100%; /* Full width */
 	background-color: #ddd; /* Grey background */
-}
-.special-skills {
-	padding-top: 10px;
-    margin-bottom: 25px;
 	
 }
 
@@ -139,24 +137,32 @@ button:hover {
 h2 {
 	font-size:1.5rem;
 }
+.special-skills {
+	max-width: 100%;
+	border: 6px dashed red;
+}
 .skills-text h2,p{
 	
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-evenly;
 	margin: 0 auto;
-	color: rgb(7, 7, 7);
+	color: rgb(27, 26, 26);
    
 }
-/* for the skills bar */
+.skills-list h3 {
+	margin-top: 15px;
+	
+}
 .skills-list{
-	padding: 10px;
+	
+	padding: 5px;
     
 }
-.html {width: 90%; background-color: #04AA6D;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 65%; background-color: #f44336;} /* Red */
-.node {width: 60%; background-color: #808080;} /* Dark Grey */
+.html {width: 100%; background-color: #04AA6D;} /* Green */
+.css {width: 95%; background-color: #2196F3;} /* Blue */
+.js {width: 95%; background-color: #f44336;} /* Red */
+.node {width: 95%; background-color: #808080;} /* Dark Grey */
 
 /* skills bar end */
 
@@ -164,7 +170,7 @@ h2 {
 
 td,
 th {
-    border: 1px solid rgb(190, 190, 190);
+   
     padding: 10px;
 }
 
@@ -173,16 +179,16 @@ td {
 }
 
 tr:nth-child(even) {
-    background-color: #eee;
+    background-color: rgb(211, 206, 206);
 }
 
 th[scope="col"] {
     background-color: #696969;
-    color: #fff;
+    color: rgb(20, 19, 19);
 }
 
 th[scope="row"] {
-    background-color: #d7d9f2;
+    background-color: #d6d6da;
 }
  footer {
 	padding: 20px 0;
