@@ -118,37 +118,73 @@ button:hover {
     color: red;
 }
 /* end of header nav banner styles */
-
+.container {
+	width: 100%; /* Full width */
+	background-color: #ddd; /* Grey background */
+}
 .special-skills {
+	padding-top: 10px;
+    margin-bottom: 25px;
 	
-	border: 6px dashed rgb(233, 229, 11);
+}
+
+.skills {
+	text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+
+h2 {
+	font-size:1.5rem;
 }
 .skills-text h2,p{
+	
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	margin: 0 auto;
 	color: rgb(7, 7, 7);
-    border: 6px dashed goldenrod;
+   
 }
+/* for the skills bar */
 .skills-list{
-    padding: 10px;
-    border: 6px dashed mediumorchid;
+	padding: 10px;
+    
 }
-ul, li{
-	
-	border: 2px dashed green;
-}
- .work-history {
-     border: 6px dashed palevioletred;
- }
- .work-history h2 {
-     border: 6px dashed red;
- }   
- .table-header {
-     border: 6px dashed rebeccapurple;
- }
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.node {width: 60%; background-color: #808080;} /* Dark Grey */
 
+/* skills bar end */
+
+/* WORK HISTORY STYLES  */
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th[scope="col"] {
+    background-color: #696969;
+    color: #fff;
+}
+
+th[scope="row"] {
+    background-color: #d7d9f2;
+}
  footer {
-     border: 6px solid rgb(20, 18, 18);
- }
+	padding: 20px 0;
+	text-align: center;
+ } 
