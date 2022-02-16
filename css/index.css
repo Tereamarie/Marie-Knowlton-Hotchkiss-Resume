@@ -53,17 +53,23 @@ table {
     box-sizing: border-box;
 }
 html, body {
-	height: 100%;
-	background: black;
+	font-family: Roboto, sans-serif;
+  margin: 0;
+  height: 100vh;
+  color: black;
+  background: fixed;
 }
-
 .container {
-    border: 10px solid red;
-	width: 90%;
-	margin: 0 auto;
-	max-width: 800px;
-	background: white;
-}
+	
+	width: 100%; /* Full width */
+	background-color: rgb(212, 207, 207); /* Grey background */
+  }
+/* .container {
+	margin: 0;
+  height: 100vh;
+    border: 20px solid green;
+	
+} */
 
 header nav {
 	display: flex;
@@ -118,7 +124,17 @@ button:hover {
     color: red;
 }
 /* end of header nav banner styles */
-
+.skills {
+	text-align: right; /* Right-align text */
+	padding-top: 10px; /* Add top padding */
+	padding-bottom: 10px; /* Add bottom padding */
+	color: white; /* White text color */
+  }
+  
+  .html {width: 90%; background-color: #04AA6D;} /* Green */
+  .css {width: 80%; background-color: #2196F3;} /* Blue */
+  .js {width: 65%; background-color: #f44336;} /* Red */
+  .php {width: 60%; background-color: #808080;} /* Dark Grey */
 .special-skills {
     border: 6px dashed darkgreen;
 }
