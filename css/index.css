@@ -53,13 +53,25 @@ table {
     box-sizing: border-box;
 }
 html, body {
+
+	height: 100%;
+	width: 100%;
+	background: rgb(127, 125, 202);
+
 	font-family: Roboto, sans-serif;
   margin: 0;
   height: 100vh;
   color: black;
   background: fixed;
+
 }
 .container {
+
+	width: 100%; /* Full width */
+	background-color: #ddd; 
+	
+ } 
+
 	
 	width: 100%; /* Full width */
 	background-color: rgb(212, 207, 207); /* Grey background */
@@ -71,7 +83,8 @@ html, body {
 	
 } */
 
-header nav {
+
+ header nav {
 	display: flex;
 	justify-content: flex-end;
 	width:100%;
@@ -80,12 +93,12 @@ header nav {
 header nav a {
     padding: 10px;
 	max-width: 100%;
-	color: rgb(196, 36, 36);
+	color: rgb(12, 11, 11);
 	text-decoration: none;
 }
 
 header nav a:hover {
-	color: blue;
+	color: rgb(211, 211, 221);
 	text-decoration: none;
 }
 
@@ -93,10 +106,10 @@ header nav a:hover {
 	background-color: rgb(182, 179, 179);
 	flex-wrap: wrap;
 	justify-content:flex-start;
-    border: 10px solid rgb(141, 5, 5);
+    
 }
 .banner img{
-	border: 10px solid rgb(143, 6, 109);
+	
 	border-radius: 10px;
 	padding: .5px;
 	width: 188px;
@@ -107,14 +120,14 @@ header nav a:hover {
     display: flex;
 	justify-content: flex-end;
 	margin: 20px;
-    border: 6px dashed olive;
+    
 }
  .cta .text-content {
 	width: 100%;
 	margin:0 auto;
 	padding: 10px;
 	font-size:1.5rem;
-	border: 6px solid rgb(160, 7, 33);
+	
 }
 button { 
 	margin: 0 auto;
@@ -124,6 +137,21 @@ button:hover {
     color: red;
 }
 /* end of header nav banner styles */
+
+/* for the skills bar */
+
+.skills {
+	text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+
+h2 {
+	font-size:1.5rem;
+}
+
 .skills {
 	text-align: right; /* Right-align text */
 	padding-top: 10px; /* Add top padding */
@@ -135,26 +163,90 @@ button:hover {
   .css {width: 80%; background-color: #2196F3;} /* Blue */
   .js {width: 65%; background-color: #f44336;} /* Red */
   .php {width: 60%; background-color: #808080;} /* Dark Grey */
+
 .special-skills {
-    border: 6px dashed darkgreen;
+	max-width: 100%;
+	
 }
-.skills-text {
-    border: 6px dashed goldenrod;
+.skills-text h2,p{
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	color: rgb(27, 26, 26);
+   
 }
-.skills-list {
-    border: 6px dashed mediumorchid;
+.skills-list h3 {
+	margin-top: 15px;
+	
+}
+.skills-list{
+	
+	padding: 5px;
+    
+}
+.html {width: 100%; background-color: #04AA6D;} /* Green */
+.css {width: 95%; background-color: #2196F3;} /* Blue */
+.js {width: 95%; background-color: #f44336;} /* Red */
+.node {width: 95%; background-color: #808080;} /* Dark Grey */
+
+/* skills bar end */
+
+/* WORK HISTORY STYLES  */
+
+table.work-history, h3{
+	display: flex;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border: 6px dashed red;
 }
 
- .work-history {
-     border: 6px dashed palevioletred;
- }
- .work-history h2 {
-     border: 6px dashed red;
- }   
- .table-header {
-     border: 6px dashed rebeccapurple;
- }
+td,
+th {
+   
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(211, 206, 206);
+}
+
+th[scope="col"] {
+    background-color: #696969;
+    color: rgb(20, 19, 19);
+}
+
+th[scope="row"] {
+    background-color: #d6d6da;
+}
+
+/* Education Styles */
+
+
+/* Fifth section */
+
+.column-2a {
+	float: left;
+	width: 45%;
+	padding: 40px;
+	padding-left:70px;
+	padding-right: 70px;
+	padding-bottom:60px;
+	height:450px;
+	margin:30px;
+	margin-right:30px;
+	margin-bottom: 40px;
+	background-color:white;
+}
+
 
  footer {
-     border: 6px solid rgb(20, 18, 18);
- }
+	padding: 20px 0;
+	text-align: center;
+ }  
