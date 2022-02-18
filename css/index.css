@@ -59,19 +59,18 @@ html, body {
   color: black;
   background: fixed;
 }
-.container {
+.main-container {
+	margin: 0 auto;
+  width: 100%;
+  background: #fffff0;
+  padding: 20px 50px;
 	
-	width: 100%; /* Full width */
-	background-color: rgb(212, 207, 207); /* Grey background */
-  }
-/* .container {
-	margin: 0;
-  height: 100vh;
-    border: 20px solid green;
+	background-color: rgb(211, 206, 206); 
 	
-} */
+ } 
 
-header nav {
+
+ header nav {
 	display: flex;
 	justify-content: flex-end;
 	width:100%;
@@ -80,12 +79,12 @@ header nav {
 header nav a {
     padding: 10px;
 	max-width: 100%;
-	color: rgb(196, 36, 36);
+	color: rgb(12, 11, 11);
 	text-decoration: none;
 }
 
 header nav a:hover {
-	color: blue;
+	color: rgb(211, 211, 221);
 	text-decoration: none;
 }
 
@@ -93,10 +92,10 @@ header nav a:hover {
 	background-color: rgb(182, 179, 179);
 	flex-wrap: wrap;
 	justify-content:flex-start;
-    border: 10px solid rgb(141, 5, 5);
+    
 }
 .banner img{
-	border: 10px solid rgb(143, 6, 109);
+	
 	border-radius: 10px;
 	padding: .5px;
 	width: 188px;
@@ -107,14 +106,14 @@ header nav a:hover {
     display: flex;
 	justify-content: flex-end;
 	margin: 20px;
-    border: 6px dashed olive;
+    
 }
  .cta .text-content {
 	width: 100%;
 	margin:0 auto;
 	padding: 10px;
 	font-size:1.5rem;
-	border: 6px solid rgb(160, 7, 33);
+	
 }
 button { 
 	margin: 0 auto;
@@ -124,37 +123,115 @@ button:hover {
     color: red;
 }
 /* end of header nav banner styles */
-.skills {
-	text-align: right; /* Right-align text */
-	padding-top: 10px; /* Add top padding */
-	padding-bottom: 10px; /* Add bottom padding */
-	color: white; /* White text color */
-  }
-  
-  .html {width: 90%; background-color: #04AA6D;} /* Green */
-  .css {width: 80%; background-color: #2196F3;} /* Blue */
-  .js {width: 65%; background-color: #f44336;} /* Red */
-  .php {width: 60%; background-color: #808080;} /* Dark Grey */
-.special-skills {
-    border: 6px dashed darkgreen;
+
+/* for the skills bar */
+
+
+
+
+
+.skills-container {
+	
+	border: 2px dashed black;
+   text-align: right; /* Right-align text */
+   padding-top: 10px;  /*Add top padding  */
+    padding-bottom: 10px; /* Add bottom padding */
+   color: white; /* White text color */
 }
-.skills-text {
-    border: 6px dashed goldenrod;
+ 
+.about {
+	border: 1px dashed yellow;
 }
+.about-text h2{
+	display: flex;
+	line-height: 18px;
+	justify-content: space-evenly;
+	margin-top: 20px;
+	color: rgb(27, 26, 26);
+   
+}
+/* p {
+	font-size: 18px;
+	font-family: 'ZCOOL XiaoWei', serif;
+	padding: 10px;
+	
+} */
 .skills-list {
-    border: 6px dashed mediumorchid;
+	margin-top: 15px;
+	padding: 5px;
+	border:1px dashed #04AA6D;
+
+}
+.skills-container{
+	border: 10px dashed red;
+	margin: 25px;
+	width: 55%;
+	
+	
+	
 }
 
- .work-history {
-     border: 6px dashed palevioletred;
- }
- .work-history h2 {
-     border: 6px dashed red;
- }   
- .table-header {
-     border: 6px dashed rebeccapurple;
- }
+.html {width: 100%; background-color: #04AA6D;} /* Green */
+.css {width: 95%; background-color: #2196F3;} /* Blue */
+.js {width: 95%; background-color: #f44336;} /* Red */
+.node {width: 95%; background-color: #cec27e;} /* Dark Grey */
 
- footer {
-     border: 6px solid rgb(20, 18, 18);
+/* skills bar end */
+
+/* WORK HISTORY STYLES  */
+.content-row {
+	border: 2px dashed rgb(200, 255, 0);
+	
+	width: 100%;
+	height: 75%;
+	background-color: rgb(211, 206, 206); 
+	padding: 20px;
+}
+table.work-history table.education-history, h3{
+	
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	
+}
+
+td,
+th {
+   
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+	background-color: #D6EEEE;
+  }
+
+th[scope="col"] {
+    background-color: #696969;
+    color: rgb(20, 19, 19);
+}
+
+th[scope="row"] {
+    background-color: #dedee2;
+}
+
+/* Education Styles */
+
+
+/* Fifth section */
+
+footer {
+	
+	border: 2px dashed red;
+	padding: 20px;
+	margin: 135px;
+	background-color: rgb(211, 206, 206); 
+	
+ }  
+ .copyright {
+	text-align: center;
+	 color: blue;
  }
