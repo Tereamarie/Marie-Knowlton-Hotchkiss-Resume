@@ -59,7 +59,7 @@ html, body {
   color: black;
   background: fixed;
 }
-.container {
+.main-container {
 	margin: 0 auto;
   width: 100%;
   background: #fffff0;
@@ -130,7 +130,7 @@ button:hover {
 
 
 
-.skills {
+.skills-container {
 	
 	border: 2px dashed black;
    text-align: right; /* Right-align text */
@@ -138,42 +138,54 @@ button:hover {
     padding-bottom: 10px; /* Add bottom padding */
    color: white; /* White text color */
 }
-.special-skills .container{
-	width: 55%;
-	border: 2px dashed black;
-	
+ 
+.about {
+	border: 1px dashed yellow;
 }
-.skills-text h2,p{
-	
+.about-text h2{
 	display: flex;
-	flex-wrap: wrap;
+	line-height: 18px;
 	justify-content: space-evenly;
-	margin: 0 auto;
+	margin-top: 20px;
 	color: rgb(27, 26, 26);
    
 }
-.skills-list h3 {
+/* p {
+	font-size: 18px;
+	font-family: 'ZCOOL XiaoWei', serif;
+	padding: 10px;
+	
+} */
+.skills-list {
 	margin-top: 15px;
-	
-}
-.skills-list{
-	
 	padding: 5px;
-    
+	border:1px dashed #04AA6D;
+
 }
+.skills-container{
+	border: 10px dashed red;
+	margin: 25px;
+	width: 55%;
+	
+	
+	
+}
+
 .html {width: 100%; background-color: #04AA6D;} /* Green */
 .css {width: 95%; background-color: #2196F3;} /* Blue */
 .js {width: 95%; background-color: #f44336;} /* Red */
-.node {width: 95%; background-color: #808080;} /* Dark Grey */
+.node {width: 95%; background-color: #cec27e;} /* Dark Grey */
 
 /* skills bar end */
 
 /* WORK HISTORY STYLES  */
 .content-row {
-	display: flex;
-	flex-direction: column;
+	border: 2px dashed rgb(200, 255, 0);
 	
-	
+	width: 100%;
+	height: 75%;
+	background-color: rgb(211, 206, 206); 
+	padding: 20px;
 }
 table.work-history table.education-history, h3{
 	
@@ -212,6 +224,14 @@ th[scope="row"] {
 /* Fifth section */
 
 footer {
-	padding: 20px 0;
-	text-align: center;
+	
+	border: 2px dashed red;
+	padding: 20px;
+	margin: 135px;
+	background-color: rgb(211, 206, 206); 
+	
  }  
+ .copyright {
+	text-align: center;
+	 color: blue;
+ }
